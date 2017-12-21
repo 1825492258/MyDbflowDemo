@@ -5,8 +5,8 @@ DBFlow的简单使用
 ### https://github.com/Raizlabs/DBFlow
 ### https://yumenokanata.gitbooks.io/dbflow-tutorials/content/index.html
 
-## 第一：添加依赖
-### annotationProcessor "com.github.Raizlabs.DBFlow:dbflow-processor:${dbflow_version}"
+### 第一：添加依赖
+    annotationProcessor "com.github.Raizlabs.DBFlow:dbflow-processor:${dbflow_version}"
     compile "com.github.Raizlabs.DBFlow:dbflow-core:${dbflow_version}"
     compile "com.github.Raizlabs.DBFlow:dbflow:${dbflow_version}"
 
